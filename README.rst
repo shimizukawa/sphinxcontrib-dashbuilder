@@ -71,3 +71,30 @@ run::
    $ sphinx-build -b dash [source] [outdir]
 
 and you get dash documentation set under '_build/dash/' directory.
+
+
+Pages
+======
+
+* Documentation: http://pythonhosted.org//sphinxcontrib-dashbuilder/
+* Repository: http://bitbucket.org/shimizukawa/sphinxcontrib_dashbuilder
+* Download URL: http://pypi.python.org/pypi/sphinxcontrib-dashbuilder
+
+License
+========
+
+BSD License.
+
+
+History
+========
+
+0.2.0 release (Unreleased)
+---------------------------
+
+
+0.1.0 release (2014/5/24)
+--------------------------
+
+* First release
+* Generate a 'Documentation Set' for dash API browser.
