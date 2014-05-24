@@ -69,3 +69,5 @@ Run
 run::
 
    $ sphinx-build -b dash [source] [outdir]
+
+and you get dash documentation set under '_build/dash/' directory.
