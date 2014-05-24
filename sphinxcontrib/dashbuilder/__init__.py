@@ -16,15 +16,15 @@ from .builder import DashBuilder
 def setup(app):
     app.add_builder(DashBuilder)
 
-    # :dash_name: name docset explicitly
+    # :dash_name: name for docset explicitly
     app.add_config_value('dash_name', None, 'env')
 
-    # :dash_icon_file: add PNG icon to docset
+    # :dash_icon_file: PNG file path for docset icon
     app.add_config_value('dash_icon_file', None, 'env')
 
     # :dash_add_to_docsets: create docset in dashbuilder's default
     # directory and add resulting docset to dash
-    app.add_config_value('dash_add_to_docsets', False, 'env')
+    #app.add_config_value('dash_add_to_docsets', False, 'env')
 
     # :dash_translator_class: A string with the fully-qualified name of a
     # Dash Translator class, that is, a subclass of Sphinx' DashTranslator,

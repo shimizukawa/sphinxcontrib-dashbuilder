@@ -193,6 +193,6 @@ class DashBuilder(StandaloneHTMLBuilder):
             self.info('Adding table of contents meta data...')
             #toc_writer.close()
 
-        if self.app.config.dash_add_to_docsets:
-            self.info('Adding to dash...')
-            os.system('open -a dash "{}"'.format(self.docsetdir)) #TODO for Mac
+        # if self.app.config.dash_add_to_docsets:
+        #     self.info('Adding to dash...')
+        #     os.system('open -a dash "{}"'.format(self.docsetdir)) #TODO for Mac
