@@ -77,7 +77,7 @@ Pages
 ======
 
 * Documentation: http://pythonhosted.org//sphinxcontrib-dashbuilder/
-* Repository: http://bitbucket.org/shimizukawa/sphinxcontrib_dashbuilder
+* Repository: http://bitbucket.org/shimizukawa/sphinxcontrib-dashbuilder
 * Download URL: http://pypi.python.org/pypi/sphinxcontrib-dashbuilder
 
 License

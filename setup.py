@@ -20,7 +20,7 @@ setup(
     name='sphinxcontrib-dashbuilder',
     version='0.2.0',
     #url='http://bitbucket.org/birkenfeld/sphinx-contrib',
-    url='http://bitbucket.org/shimizukawa/sphinxcontrib_dashbuilder',
+    url='http://bitbucket.org/shimizukawa/sphinxcontrib-dashbuilder',
     download_url='http://pypi.python.org/pypi/sphinxcontrib-dashbuilder',
     license='BSD',
     author='shimizukawa',
