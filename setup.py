@@ -18,7 +18,7 @@ extras_require = {
 
 setup(
     name='sphinxcontrib-dashbuilder',
-    version='0.1.0',
+    version='0.2.0',
     #url='http://bitbucket.org/birkenfeld/sphinx-contrib',
     url='http://bitbucket.org/shimizukawa/sphinxcontrib_dashbuilder',
     download_url='http://pypi.python.org/pypi/sphinxcontrib-dashbuilder',
