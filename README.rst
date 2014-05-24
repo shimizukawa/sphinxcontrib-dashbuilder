@@ -39,14 +39,33 @@ If you wanto to use unrelease version, you can install from repository::
    $ pip install -e hg+https://bitbucket.org/shimizukawa/sphinxcontrib-dashbuilder
 
 
-Run
-======
+Configuration
+================
 
-conf.py::
+conf.py configuration values:
+
+:dash_name:
+   (required) name for docset explicitly.
+:dash_icon_file:
+   (optional) PNG file path for docset icon.
+:dash_translator_class:
+   (optional) A string with the fully-qualified name of a
+   Dash Translator class, that is, a subclass of Sphinx' DashTranslator,
+   that is used to translate document trees to HTML for Dash.
+   Default is None (use the builtin translator).
+
+
+conf.py example::
 
    extensions = ['sphinxcontrib.dashbuilder']
 
-::
+   dash_name = 'Python_3'
+   dash_icon_file = '_static/python.png'
+
+
+Run
+======
+
+run::
 
    $ sphinx-build -b dash [source] [outdir]
-
