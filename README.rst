@@ -45,7 +45,7 @@ Configuration
 conf.py configuration values:
 
 :dash_name:
-   (required) name for docset explicitly.
+   (optional) name for docset explicitly. default is same as `project`.
 :dash_icon_file:
    (optional) PNG file path for docset icon.
 :dash_translator_class:

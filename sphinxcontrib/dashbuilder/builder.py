@@ -87,7 +87,8 @@ class DashBuilder(StandaloneHTMLBuilder):
         super(DashBuilder, self).init()
 
         if self.app.config.dash_name is None:
-            raise ConfigError('Please specify `dash_name`.')
+            self.info('Using project name for `dash_name`')
+            self.app.config.dash_name = self.app.config.project
         if self.app.config.dash_name.endswith('.docset'):
             self.app.config.dash_name = os.path.splitext(self.app.config.dash_name)[0]
 
@@ -187,7 +188,7 @@ class DashBuilder(StandaloneHTMLBuilder):
                     entry
                 )
                 #toc_writer.send(entry)
-            self.info('Added {0:,} index entries.'.format(
+            self.info('Added {0} index entries.'.format(
                 self.db_conn.execute('SELECT COUNT(1) FROM searchIndex')
                        .fetchone()[0]))
             self.info('Adding table of contents meta data...')

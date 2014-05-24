@@ -3,7 +3,7 @@
 # sphinxcontrib-dashbuilder documentation build configuration file, created by
 # sphinx-quickstart on Sat May 24 14:04:04 2014.
 
-extensions = []
+extensions = ['sphinxcontrib.dashbuilder']
 source_suffix = '.rst'
 master_doc = 'index'
 
