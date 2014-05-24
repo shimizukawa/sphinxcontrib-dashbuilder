@@ -14,7 +14,16 @@ This extension has been inspired by doc2dash_
 Features
 ==========
 
+Implemented:
+
 * Generate a 'Documentation Set' for dash API browser.
+
+
+Not Implemented yet:
+
+* Keyword indexing with Sphinx i18n translated documentation.
+* Disable sidebar
+* Table of contents support http://kapeli.com/docsets#tableofcontents
 
 
 Install
